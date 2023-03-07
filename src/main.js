@@ -22,6 +22,7 @@ import '@/mock/mockServe'
 import * as API from '@/api'
 import VueLazyload from 'vue-lazyload'
 import myPlugins from './plugin/myPlugin.js'
+import '@/plugin/validate'
 
 Vue.use(myPlugins)
 

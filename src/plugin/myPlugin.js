@@ -2,7 +2,7 @@ let myPlugins = {
 
 }
 
-myPlugins.install = function(){
+myPlugins.install = function(vue,options){
     console.log('11');
 }
 
