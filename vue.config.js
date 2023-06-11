@@ -9,6 +9,10 @@ module.exports = defineConfig({
         
       }
     }
+  },
+  pages:{
+    index:{
+      title:'My Vue App'
+    }
   }
-
 })
