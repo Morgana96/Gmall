@@ -10,9 +10,8 @@ module.exports = defineConfig({
       }
     }
   },
-  pages:{
-    index:{
-      title:'My Vue App'
-    }
-  }
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/shopping-mall/'
+  : '/'
+  
 })
