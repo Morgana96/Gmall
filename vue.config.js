@@ -10,8 +10,6 @@ module.exports = defineConfig({
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/shopping-mall/'
-  : '/'
+  publicPath: process.env.NODE_ENV === "production" ? "/shopping-mall/" : "/",
   
 })

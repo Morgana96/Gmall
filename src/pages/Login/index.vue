@@ -17,11 +17,11 @@
             <form>
               <div class="input-text clearFix">
                 <span></span>
-                <input type="text" placeholder="邮箱/用户名/手机号" v-model="phone">
+                <input type="text" placeholder="邮箱/用户名/手机号:13700000000(eight zero)" v-model="phone">
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
-                <input type="password" placeholder="请输入密码" v-model="password">
+                <input type="password" placeholder="password:111111" v-model="password">
               </div>
               <div class="setting clearFix">
                 <label class="checkbox inline">
